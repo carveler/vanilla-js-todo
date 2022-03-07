@@ -12,7 +12,7 @@ toggle complete
 
 filter todo by category
 
-##technologies
+technologies
 
 Javascript ES6
 SCSS
