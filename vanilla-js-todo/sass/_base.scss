@@ -1,0 +1,22 @@
+@use 'variable' as *;
+@use 'mixins' as *;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  place-content: center;
+  background-color: $aqua;
+  font-size: 18px;
+  @include flexMixin();
+}
